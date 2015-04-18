@@ -1,0 +1,153 @@
+html ,body,*{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+p{
+	font-size: 1.5em;
+
+}
+ul li{
+	list-style: none;
+}
+a:link {color: rgba(103, 104, 99, 0.9);text-decoration: none;}		/* 未访问的链接 */
+a:visited {color:rgba(103, 104, 99, 0.9) ;text-decoration: none;}	/* 已访问的链接 */
+a:hover {color: rgba(255, 127, 80, 1);text-decoration: none;}	/* 鼠标移动到链接上 */
+a:active {color: rgba(103, 104, 99, 0.9);text-decoration: none;}
+
+div#sidebar{
+	position: fixed;
+	width: 15%;
+	height: 100%;
+	
+	
+}
+div#sidebar ul{
+	margin-top: 50%;
+	display:flex;
+    flex-direction: column;
+    
+}
+div#sidebar ul li{
+	margin-top: 10%;
+	text-align: center;
+	font-size: 1.2em;
+	color: rgba(103, 104, 99, 0.9);
+
+}
+
+div#content{
+	margin-left:15%;
+	display:flex;
+    flex-direction: column;
+    align-items: ;
+
+}
+div#content div{
+	margin-top: 2%;
+
+}
+div#share{
+	margin-left:5%;
+	border-bottom: 1px solid rgba(0, 0, 0, .4);
+	display: flex;
+	flex-direction: column;
+	
+}
+div#share p{
+	margin-left: 5%;
+}
+div#share iframe{
+	margin: 1% 10%;
+	width: 80%;
+
+}
+div#share img{
+	width: 80%;
+	margin: 1% 10%;
+	box-shadow: 5px 5px  5px rgb(146, 173, 184);
+	
+}
+
+div#show{
+	
+	margin-left:5%;
+}
+div#show ul{
+	display: flex;
+	flex-direction: column;
+    
+    align-items: ;
+}
+div#show ul li{
+	display: flex;
+	flex-direction: row;
+	
+	
+    
+    align-items: ;
+}
+.time{
+flex:2;
+	border-top: 1px dashed  rgba(0, 0, 0, .6);
+	
+}
+.showinfo{
+	
+	border-top: 1px dashed rgba(0, 0, 0, .6);
+	
+
+	flex:7;
+}
+.showinfo a{
+	margin-left: 90%;
+}
+.fill{
+flex:2;
+}
+
+
+div#upbar{
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+}
+.sk-spinner-double-bounce.sk-spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto; }
+.sk-spinner-double-bounce .sk-double-bounce1, .sk-spinner-double-bounce .sk-double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-doubleBounce 2s infinite ease-in-out;
+          animation: sk-doubleBounce 2s infinite ease-in-out; }
+.sk-spinner-double-bounce .sk-double-bounce2 {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s; }
+
+@-webkit-keyframes sk-doubleBounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes sk-doubleBounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
